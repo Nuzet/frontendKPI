@@ -1,0 +1,40 @@
+.flex__container {
+    margin: 30px auto;
+    width: 900px;
+    height: 800px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.flex__container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container {
+    height: 100px;
+    background-color: rgb(139, 35, 139);
+    
+}
+
+.hero__container {
+    display: flex;
+}
+
+.left__container {
+    height: 525px;
+    background-color: rgb(190, 58, 60);
+    width: 75%;
+}
+
+.right__container {
+    height: 525px;
+    background-color: rgb(196, 206, 56);
+    width: 25%;
+}
+
+.footer__container {
+    height: 175px;
+    background-color: rgb(179, 102, 34);
+}

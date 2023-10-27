@@ -1,0 +1,86 @@
+/*
+with position
+*/
+
+.pics {
+    display: flex;
+}
+
+.pic {
+    margin-top: 30px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+
+.red__circle,
+.green__circle,
+.blue__circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.red__circle {
+    top: 24px;
+    left: 50px;
+    background-color: red;
+}
+
+.green__circle {
+    bottom: 0;
+    right: 10px;
+    background-color: green;
+}
+
+.blue__circle {
+    bottom: 0;
+    left: 10px;
+
+    background-color: blue;
+}
+
+.circle {
+    opacity: 0.6;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* Set the background color */
+    border-radius: 50%;
+    /* Make it a circle by setting border-radius to 50% of the width/height */
+    transform: rotate(45deg);
+    /* Apply a transformation (e.g., rotate) */
+}
+
+.circle1 {
+    opacity: 0.6;
+    position: relative;
+    left: 10px;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  
+    border-radius: 50%;
+    transform: rotate(45deg);
+
+}
+
+.circle2 {
+    opacity: 0.6;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
