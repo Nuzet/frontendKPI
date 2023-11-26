@@ -1,0 +1,53 @@
+/* style.css */
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    width: 1200px;
+    text-align: center;
+}
+
+#showDataButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: grey;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#userDataContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 350px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-image {
+    width: 120px; /* Adjust as needed */
+    height: 120px; /* Adjust as needed */
+    margin-bottom: 16px;
+}
+
+.info-container {
+    flex-grow: 1;
+}
+
+.info {
+    margin: 8px 0;
+}
