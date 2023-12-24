@@ -1,0 +1,50 @@
+{
+    "f1": {
+        "id": 0,
+        "title": "Cham",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Indian_chameleon_From_Kanakpura%2C_Karnataka.jpg",
+        "price": 500
+    },
+    "f2": {
+        "id": 1,
+        "title": "NFT Cham",
+        "image": "https://newsroom.unsw.edu.au/sites/default/files/thumbnails/image/shutterstock_1781667365_1.jpg",
+        "price": 1500
+    },
+    "f3": {
+        "id": 2,
+        "title": "Pain Cham",
+        "image": "https://www.rosscentermuncie.org/wp-content/uploads/2021/10/veiled-chameleon_16x9.webp",
+        "price": 1000
+    },
+    "f4": {
+        "id": 3,
+        "title": "Simple Cham",
+        "image": "https://media.wired.com/photos/593263c026780e6c04d2b57a/master/w_2560%2Cc_limit/Chameleon_Wroclaw_ZOO.jpg",
+        "price": 412
+    },
+    "f5": {
+        "id": 4,
+        "title": "Kiko",
+        "image": "https://img.freepik.com/free-photo/amazing-ants-carry-fruit-heavier-than-their-bodies-amazing-strong-ant_488145-2669.jpg",
+        "price": 322
+    },
+    "f6": {
+        "id": 5,
+        "title": "Vito Scalletto",
+        "image": "https://www.everythingreptiles.com/wp-content/uploads/2021/03/Pet-Chameleons.jpg",
+        "price": 522
+    },
+    "f7": {
+        "id": 6,
+        "title": "Just Chamderlon",
+        "image": "https://exoticdirect.co.uk/wp-content/uploads/2018/06/ED-ARTICLE-IMAGES-18.png",
+        "price": 999
+    },
+    "f8": {
+        "id": 7,
+        "title": "MeroMero",
+        "image": "https://biologydictionary.net/wp-content/uploads/2020/06/pantherchameleon-1.jpg",
+        "price": 1122
+    }
+}

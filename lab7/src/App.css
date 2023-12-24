@@ -1,0 +1,87 @@
+#cityImage {
+  max-width: 1000px;
+}
+
+.buttons {
+  padding-bottom: 4rem;
+}
+
+.choose__exercise {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 50px;
+  background-color: rgb(197, 175, 64);
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card__page{
+  display: flex;
+  flex-direction: column;
+}
+
+.go_back{
+  margin-top: 50px;
+  width: 200px;
+}
+
+.card {
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e44d26;
+}
