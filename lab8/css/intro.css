@@ -1,0 +1,24 @@
+.intro__container {
+    height: 742px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__illustation {
+    margin-top: 109px;
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .intro__container {
+        display: block;
+        height: auto;
+    }
+
+    .intro__illustation {
+        margin-top: 40px;
+        width: 100%;
+    }
+}

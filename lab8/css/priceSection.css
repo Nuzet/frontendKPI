@@ -1,0 +1,110 @@
+.prices__container {
+    height: 738px;
+}
+
+.prices__heading {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(9, 17, 51, 1);
+    margin-top: 59px;
+
+}
+
+.prices__paragraph {
+    width: 50%;
+    margin-top: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(111, 124, 178, 1);
+}
+
+.cards {
+    margin-top: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__item {
+    width: 350px;
+    height: 262px;
+}
+
+.main__heading {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(55, 68, 126, 1);
+
+}
+
+.card__heading {
+    margin-top: 16px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(9, 17, 51, 1);
+
+}
+
+.card__paragraph {
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(93, 105, 112, 1);
+
+}
+
+.purchase__now-btn {
+    margin-top: 34px;
+    width: 189px;
+    height: 26px;
+    background: rgba(17, 27, 71, 1);
+    color: #fff;
+}
+
+#panel {
+    display: none;
+    width: 189px;
+    height: 60px;
+    
+    background-color: rgba(17, 27, 71, 1);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .cards {
+        margin-top: 87px;
+        display: block;
+        width: 100%;
+
+    }
+
+    .card__item {
+        width: 100%;
+    }
+
+    .prices__container {
+        height: auto;
+    }
+}    
